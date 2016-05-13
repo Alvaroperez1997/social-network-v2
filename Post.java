@@ -25,11 +25,11 @@ public class Post
     }
     
     /**
-     * Devuelve quien es el autor del post
+     * Muestra el usuario del post
      */
-    public String getAuthor()
+    public void printShortSummary()
     {
-        return username;
+        System.out.println("Esto es un post de texto creado por " + username);
     }
 
     /**
