@@ -23,6 +23,14 @@ public class Post
         likes = 0;
         comments = new ArrayList<>();
     }
+    
+    /**
+     * Devuelve quien es el autor del post
+     */
+    public String getAuthor()
+    {
+        return username;
+    }
 
     /**
      * Metodo para dar un like.
