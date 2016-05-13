@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Post
 {
     // instance variables - replace the example below with your own
-    private String username;
+    public String username;
     private long timestamp;
     private int likes;
     private ArrayList<String> comments;
@@ -24,14 +24,6 @@ public class Post
         comments = new ArrayList<>();
     }
     
-    /**
-     * Muestra el usuario del post
-     */
-    public void printShortSummary()
-    {
-        System.out.println("Esto es un post de texto creado por " + username);
-    }
-
     /**
      * Metodo para dar un like.
      */
