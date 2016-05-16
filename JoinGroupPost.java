@@ -7,23 +7,22 @@ import java.util.ArrayList;
  */
 public class JoinGroupPost extends Post
 {
-    private ArrayList<String> usuarios;
+    private String group;
 
     /**
      * Constructor for objects of class joinGroupPost
      */
-    public JoinGroupPost(String author)
+    public JoinGroupPost(String author, String group)
     {
         super(author);
-        usuarios = new ArrayList<>();
+        this.group = group;
     }
-
+    
     /**
-     * Añade un usuario al grupo
+     * return: group
      */
-    public void addUser(String user)
-    {
-        usuarios.add(user);
+    public String getGroup() {
+        return group;
     }
 }
 
