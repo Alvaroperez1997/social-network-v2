@@ -5,9 +5,10 @@ import java.util.ArrayList;
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class MessagePost extends Post
+public class MessagePost extends CommentPost
 {
     private String message;
+    private ArrayList<String> comments;
 
     /**
      * Constructor for objects of class MessagePost
